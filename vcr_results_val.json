@@ -1,0 +1,352 @@
+{
+  "config": {
+    "data_source": "HuggingFace Streaming (Rowan/vcr)",
+    "split": "val",
+    "qwen_model": "Qwen/Qwen2.5-VL-7B-Instruct",
+    "yolo_model": "yolo11n.pt",
+    "length_normalize": true,
+    "device": "mps",
+    "elapsed_seconds": 10500.206042289734
+  },
+  "metrics": {
+    "Q\u2192A": 0.4,
+    "Q\u2192R": 0.26666666666666666,
+    "Q\u2192AR": 0.13333333333333333,
+    "num_samples": 15,
+    "num_correct_A": 6,
+    "num_correct_R": 4,
+    "num_correct_AR": 2
+  },
+  "per_sample_results": [
+    {
+      "sample_index": 0,
+      "predicted_answer": 0,
+      "predicted_rationale": 1,
+      "gt_answer": 1,
+      "gt_rationale": 3,
+      "answer_correct": false,
+      "rationale_correct": false,
+      "joint_correct": false,
+      "answer_log_likelihoods": [
+        -2.80078125,
+        -4.295138888888889,
+        -3.251736111111111,
+        -2.9635416666666665
+      ],
+      "rationale_log_likelihoods": [
+        -8.419642857142858,
+        -6.020833333333333,
+        -10.852272727272727,
+        -9.25
+      ]
+    },
+    {
+      "sample_index": 1,
+      "predicted_answer": 2,
+      "predicted_rationale": 3,
+      "gt_answer": 2,
+      "gt_rationale": 3,
+      "answer_correct": true,
+      "rationale_correct": true,
+      "joint_correct": true,
+      "answer_log_likelihoods": [
+        -3.615625,
+        -3.4913194444444446,
+        -1.934375,
+        -4.396875
+      ],
+      "rationale_log_likelihoods": [
+        -8.56875,
+        -6.165178571428571,
+        -6.680555555555555,
+        -5.4375
+      ]
+    },
+    {
+      "sample_index": 2,
+      "predicted_answer": 3,
+      "predicted_rationale": 1,
+      "gt_answer": 2,
+      "gt_rationale": 1,
+      "answer_correct": false,
+      "rationale_correct": true,
+      "joint_correct": false,
+      "answer_log_likelihoods": [
+        -4.625,
+        -7.215277777777778,
+        -3.96875,
+        -3.3660714285714284
+      ],
+      "rationale_log_likelihoods": [
+        -8.067708333333334,
+        -5.896875,
+        -8.265151515151516,
+        -8.145348837209303
+      ]
+    },
+    {
+      "sample_index": 3,
+      "predicted_answer": 0,
+      "predicted_rationale": 1,
+      "gt_answer": 2,
+      "gt_rationale": 3,
+      "answer_correct": false,
+      "rationale_correct": false,
+      "joint_correct": false,
+      "answer_log_likelihoods": [
+        -2.940340909090909,
+        -3.4615384615384617,
+        -6.56640625,
+        -3.53125
+      ],
+      "rationale_log_likelihoods": [
+        -8.441176470588236,
+        -5.106617647058823,
+        -10.52659574468085,
+        -7.583333333333333
+      ]
+    },
+    {
+      "sample_index": 4,
+      "predicted_answer": 0,
+      "predicted_rationale": 2,
+      "gt_answer": 3,
+      "gt_rationale": 0,
+      "answer_correct": false,
+      "rationale_correct": false,
+      "joint_correct": false,
+      "answer_log_likelihoods": [
+        -1.7421875,
+        -3.60625,
+        -3.1473214285714284,
+        -4.340625
+      ],
+      "rationale_log_likelihoods": [
+        -8.131578947368421,
+        -7.493589743589744,
+        -7.233695652173913,
+        -8.120192307692308
+      ]
+    },
+    {
+      "sample_index": 5,
+      "predicted_answer": 1,
+      "predicted_rationale": 2,
+      "gt_answer": 2,
+      "gt_rationale": 1,
+      "answer_correct": false,
+      "rationale_correct": false,
+      "joint_correct": false,
+      "answer_log_likelihoods": [
+        -9.8984375,
+        -4.451388888888889,
+        -5.5625,
+        -6.446428571428571
+      ],
+      "rationale_log_likelihoods": [
+        -6.61328125,
+        -6.30859375,
+        -4.0975,
+        -5.684375
+      ]
+    },
+    {
+      "sample_index": 6,
+      "predicted_answer": 1,
+      "predicted_rationale": 2,
+      "gt_answer": 3,
+      "gt_rationale": 1,
+      "answer_correct": false,
+      "rationale_correct": false,
+      "joint_correct": false,
+      "answer_log_likelihoods": [
+        -6.5234375,
+        -2.1875,
+        -2.560267857142857,
+        -7.102678571428571
+      ],
+      "rationale_log_likelihoods": [
+        -8.833333333333334,
+        -7.59375,
+        -7.145348837209302,
+        -9.821428571428571
+      ]
+    },
+    {
+      "sample_index": 7,
+      "predicted_answer": 2,
+      "predicted_rationale": 2,
+      "gt_answer": 1,
+      "gt_rationale": 3,
+      "answer_correct": false,
+      "rationale_correct": false,
+      "joint_correct": false,
+      "answer_log_likelihoods": [
+        -3.90234375,
+        -4.253125,
+        -1.9966517857142858,
+        -3.7864583333333335
+      ],
+      "rationale_log_likelihoods": [
+        -9.120192307692308,
+        -9.541666666666666,
+        -6.176136363636363,
+        -6.423611111111111
+      ]
+    },
+    {
+      "sample_index": 8,
+      "predicted_answer": 2,
+      "predicted_rationale": 2,
+      "gt_answer": 1,
+      "gt_rationale": 2,
+      "answer_correct": false,
+      "rationale_correct": true,
+      "joint_correct": false,
+      "answer_log_likelihoods": [
+        -2.87890625,
+        -3.703125,
+        -2.46875,
+        -2.853515625
+      ],
+      "rationale_log_likelihoods": [
+        -6.439516129032258,
+        -7.305555555555555,
+        -6.4125,
+        -7.26875
+      ]
+    },
+    {
+      "sample_index": 9,
+      "predicted_answer": 2,
+      "predicted_rationale": 3,
+      "gt_answer": 2,
+      "gt_rationale": 1,
+      "answer_correct": true,
+      "rationale_correct": false,
+      "joint_correct": false,
+      "answer_log_likelihoods": [
+        -3.0338541666666665,
+        -2.4296875,
+        -2.2747395833333335,
+        -3.1651785714285716
+      ],
+      "rationale_log_likelihoods": [
+        -3.48046875,
+        -2.309375,
+        -5.721153846153846,
+        -1.9650735294117647
+      ]
+    },
+    {
+      "sample_index": 10,
+      "predicted_answer": 2,
+      "predicted_rationale": 1,
+      "gt_answer": 2,
+      "gt_rationale": 0,
+      "answer_correct": true,
+      "rationale_correct": false,
+      "joint_correct": false,
+      "answer_log_likelihoods": [
+        -3.060416666666667,
+        -2.8828125,
+        -1.4977678571428572,
+        -3.1546875
+      ],
+      "rationale_log_likelihoods": [
+        -5.348214285714286,
+        -4.46875,
+        -4.796875,
+        -5.7125
+      ]
+    },
+    {
+      "sample_index": 11,
+      "predicted_answer": 2,
+      "predicted_rationale": 1,
+      "gt_answer": 3,
+      "gt_rationale": 2,
+      "answer_correct": false,
+      "rationale_correct": false,
+      "joint_correct": false,
+      "answer_log_likelihoods": [
+        -3.982421875,
+        -2.4332386363636362,
+        -1.6988636363636365,
+        -1.8697916666666667
+      ],
+      "rationale_log_likelihoods": [
+        -5.558035714285714,
+        -2.8859375,
+        -7.5852272727272725,
+        -6.575
+      ]
+    },
+    {
+      "sample_index": 12,
+      "predicted_answer": 0,
+      "predicted_rationale": 0,
+      "gt_answer": 0,
+      "gt_rationale": 3,
+      "answer_correct": true,
+      "rationale_correct": false,
+      "joint_correct": false,
+      "answer_log_likelihoods": [
+        -1.453125,
+        -2.2796875,
+        -2.6684027777777777,
+        -2.5625
+      ],
+      "rationale_log_likelihoods": [
+        -2.5716911764705883,
+        -5.840909090909091,
+        -7.85546875,
+        -5.84375
+      ]
+    },
+    {
+      "sample_index": 13,
+      "predicted_answer": 2,
+      "predicted_rationale": 3,
+      "gt_answer": 2,
+      "gt_rationale": 0,
+      "answer_correct": true,
+      "rationale_correct": false,
+      "joint_correct": false,
+      "answer_log_likelihoods": [
+        -3.9441964285714284,
+        -7.321428571428571,
+        -3.107421875,
+        -5.071875
+      ],
+      "rationale_log_likelihoods": [
+        -4.9460227272727275,
+        -6.4375,
+        -5.5,
+        -4.725543478260869
+      ]
+    },
+    {
+      "sample_index": 14,
+      "predicted_answer": 0,
+      "predicted_rationale": 2,
+      "gt_answer": 0,
+      "gt_rationale": 2,
+      "answer_correct": true,
+      "rationale_correct": true,
+      "joint_correct": true,
+      "answer_log_likelihoods": [
+        -2.253125,
+        -3.904296875,
+        -2.658482142857143,
+        -4.110294117647059
+      ],
+      "rationale_log_likelihoods": [
+        -6.2375,
+        -7.756944444444445,
+        -5.678125,
+        -8.182291666666666
+      ]
+    }
+  ]
+}
